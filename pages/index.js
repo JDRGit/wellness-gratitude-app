@@ -30,10 +30,7 @@ const App = () => {
   return (
     <Layout>
     <div className="min-h-screen bg-gray-100">
-      <Head>
-        <title>Wellness Gratitude App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+      
 
       <header className="bg-white py-6 shadow-md">
         <div className="container mx-auto px-4">
@@ -42,10 +39,10 @@ const App = () => {
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        <nav className="flex justify-center space-x-4 mb-8">
+        <nav className="flex justify-center space-x-4 mb-8 ">
           <button
             onClick={() => setSelectedFeature('journaling')}
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            className="bg-blue-500 text-white px-4 py-2 rounded-md "
           >
             Journaling
           </button>
