@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 const BreathingExercises = () => {
   return (
@@ -8,6 +8,7 @@ const BreathingExercises = () => {
         Breathing exercises are an essential part of mindfulness and relaxation. Practicing these exercises regularly can help reduce stress, improve focus, and promote overall well-being.
       </p>
       {/* Add more content related to breathing exercises */}
+      <Link href="/breathing-exercises"></Link>
     </div>
   );
 };

@@ -1,8 +1,15 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: false,
+  purge: ['./src/**/*.html', './src/**/*.js'],
+  darkMode: 'media',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light-blue': colors.lightBlue,
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
   },
   variants: {
     extend: {},
